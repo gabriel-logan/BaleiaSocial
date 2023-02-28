@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contate-nos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css_conf/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css_conf/contato.css" />
+</head>
+
+<body>
+    <div id="divisao_maxima">
+
+        <div>
+            <header>
+                <h1 id="titulo_da_pagina"> Contate nos </h1>
+            </header>
+        </div>
+
+        <div id="formulario_pesquisa">
+            <form method="get" action="">
+                <input id="barra_de_pesquisa" type="search" name="search" placeholder="Digite sua duvida">
+            </form>
+        </div>
+
+        <div id="superficie_formulario">
+            <div id="formulario">
+                <form method="post" action="">
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_name">Digite seu nome de usuario</label>
+                        <input id="nome_usuario" class="input_formularios" name="user_name" required="required" type="text" placeholder="ex. João da Silva" />
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_email">Digite seu email</label>
+                        <input id="nome_email" class="input_formularios" type="email" name="user_email" required="required" placeholder="ex. joao@email.com">
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_contact_tel">Digite seu telefone</label>
+                        <input id="nome_telefone" class="input_formularios" type="tel" name="user_contact_tel" required="required" pattern="[0-9]{2}[9]{1}[0-9]{4}[0-9]{4}" placeholder="ex. 11 9 98765432 - digite somente numeros">
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_subject">Digite o assunto</label>
+                        <input id="nome_assunto" class="input_formularios" type="text" name="user_subject" required="required" placeholder="ex. Problema de login, Negocios, etc...">
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_attachment">Anexar documentos:</label>
+                        <input id="nome_anexador" type="file" name="user_attachment">
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <label class="label_formulario" for="user_problem_required">Digite o problema com detalhes</label>
+                        <textarea id="nome_problema_requerido" class="input_formularios" onkeyup="cont_caracter();" type="text" name="user_problem_required" required="required" placeholder="ex. Não consigo criar minha conta; Estou com problemas no pagamento, gostaria de contactar com vocês etc"
+                            maxlength="300"></textarea>
+                        <span id="contador_textarea">0/300 (max caracteres 300)</span>
+                    </div>
+
+                    <div class="margin-bottom_div">
+                        <button id="botao_enviar_formulario" type="submit" name="submit">Enviar</button>
+                    </div>
+
+                </form>
+
+                <script src="../js_conf/Contato/confPrincipal.js"></script>
+            </div>
+        </div>
+
+        <div class="texto_informativo">
+            <h2>O atendimento do Champix funciona de segunda a sexta, das 08hs as 19hs, e aos sábados, domingos e feriados, das 09h às 15h.<br> <br> Devido a pandemia, nossa equipe está atendendo através do formulário de e-mail aqui nessa página e também
+                do Whats App 71-9-8711-4132. <br> <br> Em nosso site você encontra vários serviços 24hs por dia! Acesse sua conta e verifique se todos os dados estão preenchidos corretamente. <a href="Contato.html" style="position: relative;top: 12px;">Forum de duvidas</a></h2>
+        </div>
+
+        <div id="contato_total">
+            <h3>Entre em contato conosco, voce pode mandar mensagens de agradecimento ou perguntar uma duvida especifica, caso tenha problemas na sua conta entre em contato tambem pelo whatsapp, agradecemos o seu contato <br><br> Siga nos nas redes sociais</h3>
+            <ul>
+                <li>
+                    <a href="Contato.html"><img src="../Imagens/Facebook_logo.ico" alt="Facebook"></a>
+                    <a href="Contato.html"><img src="../Imagens/Instagram_logo.ico" alt="Instagram"></a>
+                    <a href="Contato.html"><img src="../Imagens/youtube.ico" alt="Youtube"></a>
+                </li>
+            </ul>
+            <ul class="contate_nos">
+                <h4><b>Contate nos</b></h4>
+                <li>
+                    <h6>e-mail: champix@protonmail.com</h6>
+                    <h6>Telefone: (51) 9 9171-7717</h6>
+                    <li>
+                        <a href="https://wa.me/5571987114132?text=Bom%20Dia,%20estou%20com%20uma%20duvida%20poderia%20me%20ajudar?"><img src="../Imagens/whatsapp_maior.ico" alt="Whatsapp"></a>
+                    </li>
+                    <h6>
+                        <h5><b>Trabalhe conosco</b></h5>
+                        <a id="saiba_mais" href="Contato.html">Saiba mais</a>
+                    </h6>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <footer>
+                <marquee scrollamount="5" scrolldelay="10" width="80%">
+                    &copy; Creditos: JESUS MATADOR & DIGA 7 - Todos os direitos reservados
+                </marquee>
+            </footer>
+        </div>
+
+    </div>
+</body>
+
+</html>

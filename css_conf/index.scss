@@ -1,0 +1,129 @@
+body{
+    background-color: #e0e0e0;
+    #divisao_maxima{
+        #divisao_top{
+            #divisao_maxima-header{
+                border-bottom: 3px solid #868686;
+                background-color: #c7c6c6;
+                padding: 20px;
+                margin: 0px;
+                text-align: center;
+                font-size: 60px;
+                color: #01464e;
+                text-shadow: 1.4px 1.1px #00002f;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        #divisao_maxima-conteudo{
+            display: flex;
+            justify-content: center;
+            #subdivisa_maxima-conteudo{
+                width: 1300px;
+                height: 1000px;
+                border: 1px solid black;
+                #divisao_conteudo{
+                    #divisao_maxima-perfillateral{
+                        width: 20rem;
+                        height: 15rem;                    
+                        border: 0.1rem solid black;
+                        display: flex;
+                        margin-left: 1rem;
+                        margin-top: 1rem;
+                        align-items: center;
+                        justify-content: center;
+                        #divisao_perfil-lateral{
+                            display: grid;
+                            justify-items: center;
+                            #perfil_lateral{
+                                width: 10rem;
+                                height: 10rem;                         
+                                border: 0.1rem solid black;
+                                #foto_perfil{
+                                    width: 100%;
+                                    height: 100%;
+                                    border: 0.1em solid black;
+                                    border-radius: 100%;
+                                    background-color: black;
+                                    background-image: url(https://st2.depositphotos.com/1009587/7772/i/950/depositphotos_77726582-stock-photo-head-of-killer-whale.jpg);
+                                    background-size: 130%;
+                                }
+                            }
+                            #divisao_login-out{
+                                width: 15rem;
+                                height: 4rem;                            
+                                border: 0.1rem solid black;
+                                margin-top: 0.2rem;
+                            }
+                        }
+                    }
+
+                    #divisao_maxima-storys{
+                        margin-top: 1rem;
+                        margin-left: 1rem;
+                        width: 20rem;
+                        height: 10rem;
+                        border: 0.1rem solid;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        #subdivisao_maxima-storys{
+                            width: 19rem;
+                            height: 9rem;
+                            border: 0.1rem solid;
+                            #divisao_storys{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .storys_bloco{
+                                    width: 5rem;
+                                    height: 10rem;
+                                    border: 0.1rem solid black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #divisao_maxima-direita{
+                float: right;
+                position: relative;
+                top: -23rem;
+                margin-right: 4rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                #divisaofixa_barra-depesquisa{
+                    #divisao_maxima-barradepesquisa{
+                        #divisao_barra-depesquisa{
+                            #input_barra-pesquisa{
+                                width: 20em;
+                                height: 2.5em;
+                                font-size: 1em;
+                                border: 0.2em solid #c2c2c2;
+                                border-radius: 20%;
+                                outline: none;
+                                margin-bottom: 2.5rem;
+                            }
+                        }
+                    }
+                }
+
+                #divisaofixa_pagina-rolamento{
+                    #divisao_maxima-paginarolamento{
+                        #divisao_pagina-rolamento{
+                            width: 50rem;
+                            height: 200rem;
+                            border: 0.3rem solid black;
+                            display: grid;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

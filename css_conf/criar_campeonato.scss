@@ -1,0 +1,179 @@
+body{
+    background-color: #e0e0e0;
+    margin: 0;
+    #divisao_maxima{
+
+        #divisao_maxima-header{
+            #divisao_header{
+                #header{
+                    #titulo_da_pagina{
+                        border-bottom: 3px solid #868686;
+                        text-align: center;
+                        background-color: #c7c6c6;
+                        font-size: 3.5em;
+                        color: #01464e;
+                        padding: 20px;
+                        text-shadow: 1.4px 1.1px #00002f;
+                        margin: 0px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    
+        #divisao_maxima-conteudo{
+            display: flex;
+            justify-content: center;
+            #subdivisao_maxima-conteudo{        
+                width: 80em;
+                height: 35em;
+                border: 0.1em solid black;
+                margin: 1em;
+                padding: 1em;         
+            }
+    
+                #botao_selecionar-jogo{
+                    float: left;
+                    position: relative;
+                    left: 5em;
+                    top: 5em;
+                    
+    
+                    #botao_selecionar{
+                        width: 16em;
+                        height: 3em;
+                        font-size: 1em;
+                        background-color: white;
+                        border-radius: 1em;
+                        cursor: pointer;
+                        outline: none;
+                        /*     box-shadow: 0px 1px 4px 0px rgb(168 168 168 / 60%) inset; Nao consigo colocar aq */
+                    }
+                }
+    
+                #divisao_menu-oculto{
+                    float: right;
+                    width: 40em;
+                    height: 30em;
+                    border: 0.1em solid;
+                    position: relative;
+                    right: 4em;
+                    top: 2em;
+                    border-radius: 1em;
+                    background: #f7f7f7;
+    
+                    #menu_oculto{
+                        width: 35em;
+                        height: 30em;
+                        margin: auto;
+                        display: flex;
+
+                        #divisao_lado-esquerdo{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            #titulo_menu{
+                                text-align: center;
+                                color: #01464e;
+                                font-family: sans-serif;
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                margin-top: 1em;
+                            }
+    
+                            #tabela_oculta{
+                                border: .1em solid black;
+                                width: 15em;
+                                height: 20em;
+                                margin-top: 1em;
+                                border-radius: 1em;
+
+
+                        }
+                    
+                        }
+                        #menu{
+                            height: 95%;
+    
+                            #divisao_formulario{
+                                margin-top: 0.5em;
+                                #formulario{
+                                    .texto_inputs{
+                                        color: brown;
+                                        margin-bottom: 0.1em;
+                                    }
+                                    .input_menu{
+                                        width: 16em;
+                                        height: 3em;
+                                        font-size: 1em;
+                                        background-color: white;
+                                        border-radius: 1em;
+                                        outline: none;
+                                        margin-bottom: 1em;
+                                        margin-top: 0.1em;
+                                    }
+                                
+                                #divisao_botao-formulario{
+                                    position: relative;
+                                    bottom: .5em;
+                                    right: 1em;
+                                    cursor: pointer;
+                                    #botao_formulario{
+                                        float: right;
+                                        border: 0.1em solid #355d63;
+                                        border-radius: 3em;
+                                        width: 7em;
+                                        height: 3em;
+                                        box-shadow: 0.1em 0.1em #c3c3c3;
+                                        cursor: pointer;
+                                        color: #000000;
+                                        font-size: 1em;
+                                        font-weight: bold;
+                                        font-family: aria;
+                                        text-shadow: 0.2em 0.2em #d0d0d0;
+                                    }                                    
+                                }
+
+
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                #botao_voltar-perfil{
+                    position: relative;
+                    top: 30em;
+                    left: -5em;
+                    #voltar-perfil{
+                        border: 0.1em solid #355d63;
+                        border-radius: 3em;
+                        width: 7em;
+                        height: 3em;
+                        box-shadow: 0.1em 0.1em #c3c3c3;
+                        cursor: pointer;
+                        color: #000000;
+                        font-size: 1em;
+                        font-weight: bold;
+                        font-family: aria;
+                    }         
+                }
+        }
+    
+        #divisao_maxima-rodapé{
+            #divisao_rodapé{
+                footer{
+                    background-color: #2F4F4F;
+                    color: #DCDCDC;
+                    padding: 20px;
+                    margin: 0px;
+                    text-align: center;
+                    clear: both;
+                }
+            }
+        }
+    }
+}
+

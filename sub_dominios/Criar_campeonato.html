@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Campeonatos</title>
+    <link rel="stylesheet" type="text/css" href="../css_conf/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css_conf/criar_campeonato.css">
+</head>
+    <body>
+        <div id="divisao_maxima">
+            <div id="divisao_maxima-header">
+                <div id="divisao_header">
+                    <header id="header">
+                        <h1 id="titulo_da_pagina"> Criar campeonato </h1>
+                    </header>
+                </div>
+            </div>
+
+            <div id="divisao_maxima-conteudo">
+                <div id="subdivisao_maxima-conteudo">
+                    <div id="botao_selecionar-jogo">
+                        <select name="" id="botao_selecionar">
+                            <option value="0">Selecionar Jogo</option>
+                            <option value="1">Fifa</option>
+                            <option value="2">Lol</option>
+                            <option value="3">Corrida</option>
+                            <option value="4">GTA</option>
+                            <option value="5">Basquet</option>
+                            <option value="6">Tenis</option>
+                            <option value="7" id="selecionar_jogo-outros">Outros</option>
+                        </select>
+                    </div>
+
+                    <div id="divisao_menu-oculto">
+                        <div id="menu_oculto">
+
+                            <div id="divisao_lado-esquerdo">
+                                <h1 id="titulo_menu">Selecione as informacoes do campeonato</h1>
+                                <div id="tabela_oculta">
+    
+                                </div>
+                            </div>
+
+                            <div id="menu">
+                                <div id="divisao_formulario">
+                                    <form action="" method="get" id="formulario"> 
+                                        <div>
+                                            <label for="" class="texto_inputs">Digite o nome do campeonato</label>
+                                            <input type="text" name="" id="nome_campeonato" class="input_menu" placeholder="Nome do campeonato" required="required">    
+                                        </div>                                    
+                                        <div>
+                                            <label for="" class="texto_inputs">Digite o numero de times</label>
+                                            <input type="number" name="" id="numero_times" class="input_menu" required="required">
+                                        </div>
+                                        <div>
+                                            <label for="" class="texto_inputs">Digite o valor da inscrição</label>
+                                            <input type="text" name="" id="valor_inscrição" class="input_menu" placeholder="R$: Valor da inscrição" required="required">
+                                        </div>
+                                        <div>
+                                            <label for="" class="texto_inputs">Digite o tipo de protocolo</label>
+                                            <select name="" id="tipo_campeonato-modelo" class="input_menu">
+                                                <option value="0">Mata mata ou Classificatorio</option>
+                                                <option value="1">Mata Mata</option>
+                                                <option value="2">Tabela Classificacao</option>
+                                            </select>
+                                        </div>
+                                        <div>
+                                            <label for="" class="texto_inputs">Digite a quantia de ganhadores</label>
+                                            <select name="" id="quantia_ganhadores" class="input_menu">
+                                                <option value="0">Selecionar quantos ganhadores</option>
+                                                <option value="1">1 ganhador</option>
+                                                <option value="2">2 ganhadores</option>
+                                                <option value="3">3 ganhadores</option>
+                                            </select>
+                                        </div>
+                                        <div id="divisao_botao-formulario">
+                                            <button id="botao_formulario" type="submit" name="submit">Criar campeonato</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="botao_voltar-perfil">
+                        <form action="../sub_dominios/Home.html">
+                            <button id="voltar-perfil">Voltar para perfil</button>
+                        </form>
+                    </div>        
+                </div>        
+            </div>
+
+            <div id="divisao_maxima-rodapé">
+                <div id="divisao_rodapé">
+                    <footer>
+                        <marquee scrollamount="5" scrolldelay="10" width="80%">
+                            &copy; Creditos: JESUS MATADOR & DIGA 7 - Todos os direitos reservados
+                        </marquee>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

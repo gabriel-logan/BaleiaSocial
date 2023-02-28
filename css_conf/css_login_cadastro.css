@@ -1,0 +1,363 @@
+body{
+	background-color: #DCDCDC;
+}
+
+#divisão_maxima{
+  justify-content: center;
+  width: 1348px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.titulo_site {
+  border-bottom: 3px solid #868686;
+  text-align: center;
+  background-color: #c7c6c6;
+  font-size: 60px;
+  color: #01464e;
+  padding: 20px;
+  text-shadow: 1.4px 1.1px #00002f;
+  margin: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#paragrafo_introdução{
+  float: left;
+  width: 350px;
+  clear: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+h3{
+  font-size: 25px;
+  color: #32393a;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0.2px 0.2px black;
+  padding-bottom: 20px;
+}
+h4{
+  font-size: 20px;
+  color: #066a75;
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0px 0px black;
+  padding-bottom: 20px;
+}
+h6{
+  font-size: 15px;
+  color: #a20000;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 0px black;
+  padding-bottom: 20px;
+}
+
+#fly_money_transp{
+  float: left;
+  width: 50px;
+  height: 50px;
+
+}
+
+#trofeu_dourado_transp_div{
+  float: right;
+  margin-right: 60px;
+  margin-top: 70px
+}
+
+*, *:before, *:after { 
+  margin:0;
+  padding:0;
+  font-family: Arial,sans-serif;
+}
+
+#esqueceu_senha{
+  float: right;
+}
+
+#problemas_de_login{
+  position: relative;
+  left: 158px;
+  bottom: 15px;
+}
+
+#problemas_de_cadastro{
+  position: relative;
+  left: 135px;
+  bottom: 15px;
+}
+ 
+/* remove a linha dos links */
+a{
+  text-decoration: none;
+}
+ 
+/* esconde as ancoras da tela */
+a.links{
+  display: none;
+}
+.content{
+  width: 500px;
+  min-height: 560px;    
+  margin: 30px auto;
+  position: relative;   
+  padding-bottom: 50px;
+}
+h1{
+  font-size: 48px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h1:after{
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(left, #93b8bd00 0%,#93b8bdcc 20%,#93b8bd 53%,#93b8bdcc 79%,#93b8bd00 100%);
+  background: linear-gradient(left, #93b8bd00 0%,#93b8bdcc 20%,#93b8bd 53%,#93b8bdcc 79%,#93b8bd00 100%);
+}
+.margin-bottom_div{
+  margin-bottom:15px;
+}
+p{
+  margin-bottom: 15px;
+}
+
+#data_nascimento{
+  width: max-content;
+  height: 40px;
+}
+
+.botao_escolha_data_nascimento{
+  width: 140px;
+  height: 40px;
+  margin-right: 4px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid #b2b2b2;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgb(168 168 168 / 60%) inset;
+  box-shadow: 0px 1px 4px 0px rgb(168 168 168 / 60%) inset;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#genero{
+  display: flex;
+  vertical-align: inherit;
+  width: 400px;
+  color: #405c60;
+}
+ 
+.content p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: #405c60;
+  position: relative;
+}
+/* placeholder */
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+ 
+.input_box:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+.input_box:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit */
+.input_box[type="submit"]{
+  width: 100%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+
+.input_botao_genero{
+  margin-left: 100px;
+  margin-right: 6px;
+  margin-top: 2px;
+}
+ 
+/*estilo do botão submit no hover */
+.input_box[type="submit"]:hover{
+  background: #4ab3c6;
+}
+.link{
+  position: absolute;
+  background: #e1eaeb;
+  color: #7f7c7c;
+  left: 0px;
+  height: 20px;
+  width: 440px;
+  padding: 17px 30px 20px 30px;
+  font-size: 16px;
+  text-align: right;
+  border-top: 1px solid #dbe5e8;
+ 
+  -webkit-border-radius: 0 0  5px 5px;
+  border-radius: 0 0  5px 5px;
+}
+ 
+.link a {
+  font-weight: bold;
+  background: #f7f8f1;
+  padding: 6px;
+  color: rgb(29, 162, 193);
+  margin-left: 10px;
+  border: 1px solid #cbd518;
+ 
+  -webkit-border-radius: 4px;
+  border-radius: 4px;  
+ 
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s  linear;
+}
+ 
+.link a:hover {
+  color: #39bfd7;
+  background: #f7f7f7;
+  border: 1px solid #4ab3c6;
+}
+
+footer{
+  background-color: #2F4F4F;
+  color: #DCDCDC;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  clear: both;
+}
+
+#cadastro, 
+#login{
+  position: absolute;
+  top: 0px;
+  width: 88%;   
+  padding: 18px 6% 60px 6%;
+  margin: 0 0 35px 0;
+  background: #f7f7f7;
+  border: 1px solid rgba(147, 184, 189,0.8);
+   
+  -webkit-box-shadow: 5px;
+  border-radius: 5px;
+   
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+ 
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+
+}
+/* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+/*fadeInLeft*/
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+ 
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+ 
+/*fadeOutLeft*/
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+  }
+}
+ 
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
